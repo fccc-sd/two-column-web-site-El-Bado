@@ -22,11 +22,19 @@ header {
     margin-bottom: 10px;
 }
 
+#space{
+    display: flex;
+}
+div {
+    font-style: italic;
+}
 iframe {
     padding: 25px;
     margin: 0 auto;
     margin-top: 10px;
-
+    justify-content: center;
+    align-items: center;
+    
 }
 
 nav {
@@ -38,6 +46,7 @@ nav {
     margin: 0 auto;
     margin-bottom: 10px;
     font-style: italic;
+
 }
 
 aside {
@@ -70,9 +79,7 @@ footer {
 }
 
 
-div {
-    font-style: italic;
-}
+
 
 
 
