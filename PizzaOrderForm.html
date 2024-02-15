@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PizzaOrderForm.css">
+</head>
+
+<body>
+    <header>The Hot Stone Pizzeria</header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="home Page">Home</a></li>
+            <li><a href="page2.html">My Setup</a></li>
+            <li><a href="page3.html" title="Third Page">My Game</a></li>
+            <li><a href="page4.html" title="Fourth Page">Unity Game</a></li>
+            <li><a href="table.html" title="table"> Table</a></li>
+            <li><a href="PizzaOrderForm.html" title="Order Pizza"> Order Pizza</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <form id="PizzaOrder_Form" action="my_app.php" method="post">
+
+            <h1>Information</h1>
+            <fieldset id="Information">
+
+                <img src="images/PizzaPlace.jpg" alt="" height="183" width="276"> </a>
+
+                <div id="test">
+                    First & Last name<input type="text" name="Customer Name" id="CustomerName"><br>
+                    Address <input type="text" name="Address" id="Address"><br>
+                    Phone Number <input type="text" name="Phone Number" id="PhoneNumber">
+                </div id="test">
+            </fieldset id="Information">
+            <h1>Pizza Size</h1>
+            <fieldset>
+                <img src="images/LargePizza.jpg" alt="" height="207" width="276"> </a> <br>
+                8 Inch Pizza: <input type="radio" name="Small Pizza" id="SmallPizza" checked> <br>
+                12 Inch Pizza: <input type="radio" name="Medium Pizza" id="MediumPizza"><br>
+                16 Inch Pizza: <input type="radio" name="Small Pizza" id="SmallPizza"><br> <br>
+
+            </fieldset>
+            <br>
+            <h1>Toppings</h1>
+            <fieldset>
+
+
+                <img src="images/pizzaToppings.jpg" alt="" height="357" width="276"> </a><br>
+
+                Pepperoni: <input type="checkbox" name="Pepperoni" id="Pepperoni"><br>
+                Mushrooms: <input type="checkbox" name="Mushrooms" id="Mushrooms"><br>
+                Sausage: <input type="checkbox" name=" Sausage" id=" Sausage"><br>
+                Bacon: <input type="checkbox" name="Bacon" id="Bacon"><br>
+                Ham: <input type="checkbox" name="Ham" id="Ham"><br>
+                Extra Cheese:<input type="checkbox" name="Extra Cheese" id="Extra Cheese">
+            </fieldset>
+            <h1>Cook Notes</h1>
+
+            <img src="images/PizzaChef.jpg" alt="" height="261" width="276"> </a>
+
+            <textarea name="Notes" id="Notes" cols="30" rows="17"></textarea>
+
+
+
+
+        </form>
+    </div id="container">
+</body>
+
+</html>
