@@ -1,0 +1,31 @@
+body{
+  background-color:black;
+
+}
+.container_12{
+  background-color: aliceblue;
+}
+header
+{
+  height: 50px;
+}
+aside{
+  height: 400px;
+}
+section{
+  height: 400px;
+}
+footer{
+  height: 100px;
+}
+nav{
+  height: 20px;
+}
+
+.g{
+  background-color: green;
+}
+
+.L{
+  background-color: blueviolet;
+}
