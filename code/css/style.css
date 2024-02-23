@@ -1,0 +1,80 @@
+
+
+header {
+    background-color: rgb(255, 153, 153);
+    
+    
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+
+
+
+
+
+nav {
+    background-color: rgb(0, 128, 128);
+    color: rgb(255, 255, 255);
+    line-height: 1.25em;
+    font-style: italic;
+
+}
+
+aside {
+   
+    background-color: rgb(224, 176, 255);
+   
+}
+
+aside a:visited {
+    color: rgb(0, 0, 0);
+}
+
+section {
+    background-color: rgb(211, 211, 211);
+ 
+}
+
+
+footer {
+    background-color: rgb(173, 216, 230);
+ 
+}
+
+
+
+
+h3 {
+    color: rgb(4, 9, 90);
+
+}
+
+
+
+
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(235, 229, 229);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: overline;
+}
